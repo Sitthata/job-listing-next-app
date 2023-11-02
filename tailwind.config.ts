@@ -8,11 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: 'hsl(180, 29%, 50%)',
+        neutral: {
+          100: 'hsl(180, 52%, 96%)',
+          200: 'hsl(180, 31%, 95%)',
+          300: 'hsl(180, 8%, 52%)',
+          400: 'hsl(180, 14%, 20%)'
+        }
       },
+      fontFamily: {
+        'heading': ['League Spartan', 'sans']
+      }
     },
   },
   plugins: [],
