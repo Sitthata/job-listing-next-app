@@ -1,10 +1,9 @@
 import Image from "next/image";
 import { CardType } from "@/types/cardType";
-import { Span } from "next/dist/trace";
 import Tag from "./tag";
 import TagList from "./tagList";
 
-type CardProps = {} & CardType;
+type CardProps = CardType;
 
 export default function Card({
   logo,
@@ -19,7 +18,6 @@ export default function Card({
   languages,
   tools,
   new: isNew,
-  ...props
 }: CardProps) {
   const tags = [role, level, ...languages, ...tools];
   return (
