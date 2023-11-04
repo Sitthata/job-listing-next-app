@@ -1,6 +1,5 @@
-import Card from "./components/card";
-import CardList from "./components/cardList";
-import Header from "./components/header";
+import CardList from "@/app/components/cardList";
+import Header from "@/app/components/header";
 
 
 export default function Home() {

@@ -1,6 +1,6 @@
 "use client";
-import data from '../data.json';
-import Card from './card';
+import data from '@/app/data.json';
+import Card from '@/app/components/card';
 
 export default function CardList() {
     return (

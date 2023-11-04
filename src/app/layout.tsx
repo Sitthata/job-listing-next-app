@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
-import { League_Spartan } from 'next/font/google'
+import { leagueSpartan } from '@/app/fonts/font'
 import "./styles/globals.css"
-
-const leaugeSpartan = League_Spartan({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -16,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={leaugeSpartan.className}>{children}</body>
+      <body className={leagueSpartan.className}>{children}</body>
     </html>
   )
 }
