@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div>
+    <div className="bg-primary">
       <Image
         src="/images/bg-header-desktop.svg"
         alt="hero image"

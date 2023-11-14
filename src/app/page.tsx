@@ -5,7 +5,7 @@ export default async function Page() {
   return (
     <main>
       <Header />
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center mt-[4rem]">
         <CardList/>
       </div>
     </main>
